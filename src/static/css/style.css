@@ -1,0 +1,73 @@
+/* Font Navbar */
+.navbar a{
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+}
+
+/* Navbars */
+.navbar-top{
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.navbar-bottom{
+  padding: 0;
+  z-index: 1;
+  background-color: rgb(4,167,34
+  );
+}
+
+/* Custom Background */
+.bg-gray{
+  background-color: rgb(4,167,34);
+  color: black;
+}
+
+.bg-lightgray{
+  /* Usado na Barra Lateral */
+  background-color: #000000;
+  border: 0;
+  color: black;
+}
+
+/* Sidebar Configuração */
+.sidebar {
+display: none;
+width: 260px;
+}
+
+.main {
+margin: auto;
+}
+
+@media (min-width: 768px) {
+.main {
+  padding-left: 0px;
+}
+}
+
+/* Links Footer */
+.no-bullets {
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+}
+footer a {
+color: rgb(26, 214, 63);
+text-decoration: none;
+}
+
+/* Copyright */
+.copyright{
+background-color: rgb(0, 0, 0);
+color: rgb(85, 140, 95);
+}
+
+/* Scroll Offset */
+html {
+scroll-padding-top: 80px; /* Altura das 2 Navbar */
+}
+.Templa{
+  max-width: 100%;
+}
